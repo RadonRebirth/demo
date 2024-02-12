@@ -1,27 +1,41 @@
 {
   "posts": [
-    { 
+    {
       "id": 1,
       "name": "Leanne Graham",
       "username": "Bret",
-      "email": "Sincere@april.biz"
+      "email": "Sincere@april.biz",
+      "title": "Post 1"
     },
-    { 
+    {
       "id": 2,
       "name": "Ervin Howell",
       "username": "Antonette",
-      "email": "Shanna@melissa."
+      "email": "Shanna@melissa.",
+      "title": "Post 2"
     },
-    { 
+    {
       "id": 3,
       "name": "Clementine Bauch",
       "username": "Samantha",
-      "email": "Nathan@yesenia.net"
+      "email": "Nathan@yesenia.net",
+      "title": "Post 3"
     }
   ],
-    "profile": {
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
     "name": "RadonRebirth"
   }
 }
- 
 
