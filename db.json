@@ -11,7 +11,7 @@
       "email": "Sincere@april.biz",
       "title": "Post 1",
       "likesCount": "1900",
-      "codebutton": "<Button style={{ color: 'black' }} variant='' onClick={handleLikeClick}><div className={`material-symbols-outlined ${activeBtn === 'like' ? 'like-active' : ''}`} >favorite </div> {item.likesCount} </Button>"
+      "codebutton": "handleLikeClick"
     },
     {
       "id": 2,
